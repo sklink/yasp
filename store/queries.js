@@ -864,10 +864,10 @@ function insertMatch(match, options, cb) {
   }
 
   function upsertMatch(cb) {
-    if (!options.doLogParse) {
+    // if (!options.doLogParse) {
       // Skip this if not a pro match (doLogParse true)
-      return cb();
-    }
+      // return cb();
+    // }
     // console.log('[INSERTMATCH] upserting into Postgres');
     return db.transaction((trx) => {
       function upsertMatch(cb) {
