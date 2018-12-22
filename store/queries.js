@@ -865,8 +865,8 @@ function insertMatch(match, options, cb) {
 
   function upsertMatch(cb) {
     // if (!options.doLogParse) {
-      // Skip this if not a pro match (doLogParse true)
-      // return cb();
+    // Skip this if not a pro match (doLogParse true)
+    // return cb();
     // }
     // console.log('[INSERTMATCH] upserting into Postgres');
     return db.transaction((trx) => {
